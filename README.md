@@ -221,7 +221,8 @@ T 20 20
 ## Install
 
 ```console
-$ go get github.com/moul/shikaku/cmd/shikakugen
+go install github.com/moul/shikaku/cmd/shikakugen@latest
+go clean -modcache
 ```
 ## License
 
